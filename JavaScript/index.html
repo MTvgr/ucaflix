@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Carrusel de Imágenes</title>
+    <!-- Agrega los siguientes enlaces a las bibliotecas de Slick Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <h1>Mi Carrusel de Imágenes</h1>
+    
+    <!-- Contenedor del carrusel -->
+    <div class="carousel">
+        <div><img src="imagen1.jpg" alt="Descripción de la imagen 1"></div>
+        <div><img src="imagen2.jpg" alt="Descripción de la imagen 2"></div>
+        <div><img src="imagen3.jpg" alt="Descripción de la imagen 3"></div>
+        <!-- Puedes agregar más imágenes aquí -->
+    </div>
+
+    <!-- Agrega los siguientes enlaces a las bibliotecas de jQuery y Slick Carousel al final del cuerpo del HTML -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+    <!-- Inicializa el carrusel -->
+    <script>
+        $(document).ready(function(){
+            $('.carousel').slick();
+        });
+    </script>
+</body>
+</html>
