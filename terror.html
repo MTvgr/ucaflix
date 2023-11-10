@@ -1,0 +1,69 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Carrusel de Imágenes</title>
+    <!-- Incluye Bootstrap CSS (asegúrate de tener acceso a Internet) -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="mifuentedaniel.css">
+</head>
+<body>
+
+<div class="container">
+    <h2 class="titulo-accion" style="font-size: 100px; text-align: center; margin-top: 50px;">TERROR</h2>
+    <style>
+        @font-face {
+            font-family: 'MiFuentePersonalizada';
+            src: url(Fuente/Aligator.otf) format('truetype')
+        }
+        body {
+            font-family: 'MiFuentePersonalizada', sans-serif;
+        }
+    </style>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicadores -->
+        <ul class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ul>
+        <!-- Imágenes con los enlaces de las peliculas obtenidas en Youtube -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://youtu.be/pau_jWjkNJs?si=PQBJRQE8S-uVFG0r" target="_blank">
+                    <img src="Imagenes/images.jpg" alt="Imagen 1" style="width: 100%; height: 1000px;">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=3oDs3H83x_Y" target="_blank">
+                    <img src="Imagenes/Reza por el diablo.jpg" alt="Imagen 2" style="width: 100%; height: 1000px;">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://www.youtube.com/watch?v=O1_U0Jq1JTU" target="_blank">
+                    <img src="Imagenes/Anabelle 3.jpg" alt="Imagen 3" style="width: 100%; height: 1000px;">
+                </a>
+            </div>
+        </div>
+        <!-- Controles de carrusel -->
+        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Siguiente</span>
+        </a>
+    </div>
+</div>
+
+<!-- Incluye Bootstrap JS y jQuery (asegúrate de tener acceso a Internet) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<h1>
+    <a href="UcaFlix.html" target="_blank">UcaFlix</a>
+    </h1>
+
+</body>
+</html>
